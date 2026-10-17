@@ -1,0 +1,24 @@
+name: Something is wrong with a Page
+description: A Page misbehaves, misreports the chain, or shows something it should not.
+body:
+  - type: input
+    id: cid
+    attributes:
+      label: The CID you are looking at
+      description: Printed in the release record, and what the name resolves to.
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: How you reached it
+      description: The name, the gateway, or the local path.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what the Page did, and what you expected. Quote the exact text.
+    validations:
+      required: true

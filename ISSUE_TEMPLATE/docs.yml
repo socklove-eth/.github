@@ -1,0 +1,15 @@
+name: A document is wrong
+description: A factual error, a broken link, a contradiction, or a claim the code no longer matches.
+body:
+  - type: input
+    id: where
+    attributes:
+      label: File and line
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: The line, quoted, and what is wrong with it
+    validations:
+      required: true

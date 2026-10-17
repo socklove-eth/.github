@@ -1,0 +1,19 @@
+version = 1
+
+[[annotations]]
+path = "**"
+precedence = "aggregate"
+SPDX-FileCopyrightText = "SockLove"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = "profile/assets/logo.png"
+precedence = "override"
+SPDX-FileCopyrightText = "SockLove"
+SPDX-License-Identifier = "LicenseRef-SockLove-Marks"
+
+[[annotations]]
+path = "profile/assets/plate.jpg"
+precedence = "override"
+SPDX-FileCopyrightText = "SockLove"
+SPDX-License-Identifier = "LicenseRef-SockLove-Marks"
